@@ -7,7 +7,7 @@ export const Toggle=()=>
   const [isHappy,setisHappy]=useState(true)
   return (
     <div className='text-center mt-3'>
-        <button onClick={()=>setisHappy(!isHappy)}>Are you Happy?{isHappy?'😍':'🤐'} </button>
+        <button className='btn btn-info' onClick={()=>setisHappy(!isHappy)}>Are you Happy?{isHappy?'😍':'🤐'} </button>
         
     </div>
   )
